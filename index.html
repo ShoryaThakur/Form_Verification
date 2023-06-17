@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="css/index_style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>FORM VALIDATION</h1>
+      <form>
+        <div class="contain">
+          <h3>Username :</h3>
+          <input type="text" id="text" placeholder=" Write Your Username" />
+          <span id="extra"> </span>
+        </div>
+        <div class="contain">
+          <h3>Password :</h3>
+          <input
+            type="password"
+            id="password"
+            placeholder=" Write Your Password"
+          />
+          <span id="extra2"></span>
+        </div>
+        <div class="contain">
+          <h3>Confirm Password :</h3>
+          <input
+            type="password"
+            id="cpassword"
+            placeholder=" Confirm Your Password"
+          /><span id="extra3"></span>
+        </div>
+        <div class="contain">
+          <h3>Email :</h3>
+          <input type="email" id="email" placeholder=" Write Your Email" />
+          <span id="extra4"></span>
+        </div>
+        <div class="contain">
+          <h3>Phone Number :</h3>
+          <input type="number" id="number" placeholder=" Phone Number" />
+          <span id="extra5"></span>
+        </div>
+        <div class="contain">
+          <h3>Address :</h3>
+          <input type="text" id="address" placeholder=" Your Address" />
+          <span id="extra6"></span>
+        </div>
+        <div class="contain">
+          <h3>City :</h3>
+          <input type="text" id="City" placeholder=" Your City" />
+          <span id="extra7"></span>
+        </div>
+        <div class="contain">
+          <h3>State :</h3>
+          <input type="text" id="State" placeholder=" Your State" />
+          <span id="extra8"></span>
+        </div>
+        <div class="contain">
+          <h3>ZipCode :</h3>
+          <input type="number" id="pin" placeholder=" Your ZipCode" />
+          <span id="extra9"></span>
+        </div>
+        <div class="contain2">
+          <h3>Gender :</h3>
+          <input type="radio" id="GenderM" value="choicea" name="a" /><b
+            >Male</b
+          >
+          <input type="radio" id="GenderF" value="choiceb" name="a" /><b
+            >Female</b
+          >
+          <span id="extra10"></span>
+        </div>
+        <div class="contain1">
+          <button type="submit" id="btn" onclick="return validation();">
+            Submit
+          </button>
+          <button type="reset" id="btn" onclick="return refresh();">
+            Reset
+          </button>
+        </div>
+      </form>
+    </div>
+    <script src="js/index_script.js"></script>
+  </body>
+</html>
